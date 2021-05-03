@@ -8,15 +8,15 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,su
 
 body {
 	--color-text: #000;
-	--color-bg: #ececec;
+	--color-bg: #9c0404;
 	--color-link: #000;
 	--color-link-hover: #000;
-	--color-info: #000;
+	--color-info: rgb(255, 255, 255);
 	font-family: 'Buenard', serif;
 	min-height: 100vh;
 	color: #57585c;
 	color: var(--color-text);
-	background-color: #fff;
+	background-color: #f3f1db;
 	background-color: var(--color-bg);
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
@@ -104,16 +104,18 @@ main {
 	z-index: 100;
 	display: flex;
 	flex-direction: row;
-	align-items: flex-start;
+	align-items: c;
 	align-items: center;
 	padding: 2rem;
 }
 
 .codrops-header__title {
-	font-size: 1em;
-	font-weight: bold;
+	font-size: 3em;
+	font-weight: bolder;
 	margin: 0;
 	padding: 0;
+	color: white;
+	text-align: center;
 }
 
 .info {
@@ -286,6 +288,7 @@ main {
 	left: 0;
 	z-index: 1000;
 	overflow: hidden;
+	font-size: 50px;
 }
 
 .overlay--open {
@@ -309,7 +312,7 @@ main {
 	position: absolute;
 	top: 0;
 	left: 0;
-	background: #ececec;
+	background: #b10404;
 	opacity: 0;
 	display: flex;
 	flex-direction: column;
